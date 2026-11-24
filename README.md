@@ -23,6 +23,7 @@ Dataset
 
 
 Workflow
+
   Data Collection
   BRFSS 2021 Dataset -> Data Preprocessing (Cleaning · Encoding · Scaling · Transformation) ->  Handling Class Imbalance (SMOTE) -> Model Training & Comparison (Logistic Regression · Random Forest · MLP · Other models) -> Evaluation & Analysis  (ROC-AUC · Precision · Recall · F1-score)
 
