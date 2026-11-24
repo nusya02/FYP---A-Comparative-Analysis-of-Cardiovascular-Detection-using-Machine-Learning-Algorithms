@@ -24,24 +24,11 @@ Dataset
 
 Workflow
   Data Collection
-  BRFSS 2021 Dataset
-          |
-  Data Preprocessing
-  Cleaning · Encoding · Scaling · Transformation
-          |
-  Handling Class Imbalance
-  SMOTE
-          |
-  Model Training & Comparison
-  Logistic Regression · Random Forest · MLP · Other models
-          |
-  Evaluation & Analysis
-  ROC-AUC · Precision · Recall · F1-score
+  BRFSS 2021 Dataset -> Data Preprocessing (Cleaning · Encoding · Scaling · Transformation) ->  Handling Class Imbalance (SMOTE) -> Model Training & Comparison (Logistic Regression · Random Forest · MLP · Other models) -> Evaluation & Analysis  (ROC-AUC · Precision · Recall · F1-score)
 
 
 Evaluation & Findings
-Model	ROC-AUC
-Logistic Regression	0.837
+Model	ROC-AUC = Logistic Regression	0.837
 
 Logistic Regression demonstrated the best ROC-AUC performance in the comparative analysis. The study also explored the effect of class imbalance and decision threshold adjustment on the model's ability to identify positive cases.
 
